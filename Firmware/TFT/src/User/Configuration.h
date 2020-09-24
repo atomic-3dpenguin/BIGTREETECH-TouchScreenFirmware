@@ -243,7 +243,7 @@
  * Enable this will send "M500" after "G29" to store leveling value
  * and send "M420 S1" to enable leveling state after startup
  */
-#define AUTO_SAVE_LOAD_LEVELING_VALUE true //to enabled: true | to disabled: false
+#define AUTO_SAVE_LOAD_LEVELING_VALUE false //to enabled: true | to disabled: false
 
 /**
  * Enable Unified Bed Leveling options
@@ -255,7 +255,7 @@
  * Options:  0: Disabled    1: Enabled    2: Auto-detect [default]
  *
  */
-#define ENABLE_UBL_VALUE 2
+#define ENABLE_UBL_VALUE 0
 
 /**
  * Enable friendly probe offset language.
