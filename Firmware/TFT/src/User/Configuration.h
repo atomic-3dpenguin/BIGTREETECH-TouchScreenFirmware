@@ -217,9 +217,9 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 235
-#define Y_MAX_POS 235
-#define Z_MAX_POS 250
+#define X_MAX_POS 246
+#define Y_MAX_POS 163
+#define Z_MAX_POS 150
 
 // Specify a pause position as { X, Y, Z_raise }
 #define NOZZLE_PAUSE_RETRACT_LENGTH 15   // (mm)
@@ -283,7 +283,7 @@
  */
 #define LEVELING_EDGE_DISTANCE     20    // Inset distance from bed's edge for calculating leveling point location.
 #define LEVELING_POINT_Z           0.2f  // Z-axis position when nozzle stays for leveling
-#define LEVELING_POINT_MOVE_Z      10.0f // Z-axis position when nozzle move to next point
+#define LEVELING_POINT_MOVE_Z      5.0f // Z-axis position when nozzle move to next point
 #define LEVELING_POINT_XY_FEEDRATE 6000  // (mm/min) X and Y axes move feedrate
 #define LEVELING_POINT_Z_FEEDRATE  600   // (mm/min) Z axis move feedrate
 
@@ -302,7 +302,7 @@
  */
 #define Z_FADE_MIN_VALUE     0.0f
 #define Z_FADE_MAX_VALUE     20.0f
-#define Z_FADE_DEFAULT_VALUE 10.0f
+#define Z_FADE_DEFAULT_VALUE 0.0f
 
 /**
  * Probe Offset
